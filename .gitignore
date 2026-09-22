@@ -1,0 +1,6 @@
+# Downloaded source PDFs/pages are ephemeral scratch space, not committed.
+# Once an item is summarized, its result lives permanently in dashboard_cache.json
+# instead, so re-downloading the PDF is never needed again.
+pdf_cache/
+__pycache__/
+*.pyc
